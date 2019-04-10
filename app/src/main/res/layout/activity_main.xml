@@ -24,6 +24,7 @@
             android:layout_weight="1"
             android:hint="Enter Height in centimeters"
             android:inputType="numberDecimal"
+            android:id="@+id/etHeight"
             />
 
     </LinearLayout>
@@ -45,6 +46,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="Enter Weight in kilograms"
+            android:id="@+id/etWeight"
+            android:inputType="numberDecimal"
             />
 
     </LinearLayout>
@@ -63,6 +66,7 @@
             android:background="#008000"
             android:textColor="#fff"
             android:textSize="10sp"
+            android:id="@+id/btnCalc"
         />
 
     </LinearLayout>
@@ -80,7 +84,8 @@
         
         <EditText
             android:layout_width="100dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/etOutput"/>
 
 
     </LinearLayout>
